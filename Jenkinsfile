@@ -14,7 +14,7 @@ agent any
         }
      stage('Test Code') {
             steps {
-                sh "chmod u+x Test.py"
+                sh "chmod u+x test.py"
                 sh "./test.py"
             }
         }
